@@ -4,8 +4,13 @@
   "description": "Simple hello world http handler",
   "main": "app.js",
   "scripts": {
-    "test": "test"
+    "test": "test",
+    "build": "babel src -d lib"
   },
   "author": "john",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "@babel/cli": "^7.2.3",
+    "@babel/core": "^7.2.2"
+  }
 }
