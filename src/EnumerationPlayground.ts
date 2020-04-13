@@ -3,9 +3,13 @@
 //     return keys.length > 0 ? keys[0] : null;
 // }
 
-enum Fruit { Orange, Apple, Grape };
+enum CdCrm {
+    AG = 0,
+    GMBH,
+    EINZELFIRMA
+};
 
-console.log(Fruit.Orange);
-console.log(Fruit.Apple);
-console.log(Fruit.Grape);
+console.log(CdCrm.AG);
+console.log(CdCrm.GMBH);
+console.log(CdCrm.EINZELFIRMA);
 
