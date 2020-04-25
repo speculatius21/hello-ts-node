@@ -1,15 +1,13 @@
-// function getEnumKeyByEnumValue(myEnum, enumValue): string | null {
-//     const keys = Object.keys(myEnum).filter(x => myEnum[x] === enumValue);
-//     return keys.length > 0 ? keys[0] : null;
-// }
-
 enum CdCrm {
-    AG = 0,
+    AG = 1,
     GMBH,
     EINZELFIRMA
-};
+}
 
+// tslint:disable-next-line:no-console
 console.log(CdCrm.AG);
+// tslint:disable-next-line:no-console
 console.log(CdCrm.GMBH);
+// tslint:disable-next-line:no-console
 console.log(CdCrm.EINZELFIRMA);
 
