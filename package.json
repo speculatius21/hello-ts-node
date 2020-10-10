@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "main": "src/EnumerationPlayground.ts",
   "scripts": {
-    "start": "ts-node src/EnumerationPlayground.ts"
+    "start": "ts-node src/EnumerationPlayground.ts",
+    "start2": "ts-node src/playground/no-initializer.ts"
   },
   "author": "john",
   "dependencies": {},
