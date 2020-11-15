@@ -7,7 +7,8 @@
     "start2": "ts-node src/playground/function-types.ts",
     "start3": "ts-node src/playground/and-or-operators.ts",
     "start4": "ts-node src/playground/index-signature.ts",
-    "start5": "ts-node src/playground/index-signature2.ts"
+    "start5": "ts-node src/playground/index-signature2.ts",
+    "start6": "ts-node src/playground/getter-and-setter-in-typescript.ts"
   },
   "author": "john",
   "dependencies": {},
