@@ -5,7 +5,9 @@
   "scripts": {
     "start": "ts-node src/EnumerationPlayground.ts",
     "start2": "ts-node src/playground/function-types.ts",
-    "start3": "ts-node src/playground/and-or-operators.ts"
+    "start3": "ts-node src/playground/and-or-operators.ts",
+    "start4": "ts-node src/playground/index-signature.ts",
+    "start5": "ts-node src/playground/index-signature2.ts"
   },
   "author": "john",
   "dependencies": {},

@@ -1,8 +1,12 @@
-interface AuthorArray { [index: number]: string; }
+interface FlightSeating {
+    [index: string]: string;
+}
 
-let authors: AuthorArray;
-authors = { 1: 'Hoppe', 2: 'Koppenhagen', 3: 'Malcher' };
-// authors = [ 'Hoppe', 'Koppenhagen', 'Malcher' ];
+let flightSeating: FlightSeating;
+flightSeating = {
+    '34d': 'passenger-1',
+    '04e': 'passenger-2'
+}
 
-console.log(authors);
+console.log(flightSeating);
 
