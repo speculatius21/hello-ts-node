@@ -4,7 +4,8 @@
   "main": "src/EnumerationPlayground.ts",
   "scripts": {
     "start": "ts-node src/EnumerationPlayground.ts",
-    "start2": "ts-node src/playground/no-initializer.ts"
+    "start2": "ts-node src/playground/function-types.ts",
+    "start3": "ts-node src/playground/and-or-operators.ts"
   },
   "author": "john",
   "dependencies": {},
