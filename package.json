@@ -9,7 +9,9 @@
     "start4": "ts-node src/playground/index-signature.ts",
     "start5": "ts-node src/playground/index-signature2.ts",
     "start6": "ts-node src/playground/getter-and-setter-in-typescript.ts",
-    "start7": "ts-node src/playground/list-playground.ts"
+    "start7": "ts-node src/playground/list-playground.ts",
+    "start8": "ts-node src/playground/destructuring.ts",
+    "start9": "ts-node src/playground/object-property-exists.ts"
   },
   "author": "john",
   "dependencies": {},
