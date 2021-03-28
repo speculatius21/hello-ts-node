@@ -1,9 +1,9 @@
 {
   "name": "ts-node-playground",
   "version": "1.0.0",
-  "main": "src/EnumerationPlayground.ts",
+  "main": "src/playground/EnumerationPlayground.ts",
   "scripts": {
-    "start": "ts-node src/EnumerationPlayground.ts",
+    "start": "ts-node src/playground/EnumerationPlayground.ts",
     "start2": "ts-node src/playground/function-types.ts",
     "start3": "ts-node src/playground/and-or-operators.ts",
     "start4": "ts-node src/playground/index-signature.ts",
@@ -11,13 +11,14 @@
     "start6": "ts-node src/playground/getter-and-setter-in-typescript.ts",
     "start7": "ts-node src/playground/list-playground.ts",
     "start8": "ts-node src/playground/destructuring.ts",
-    "start9": "ts-node src/playground/object-property-exists.ts"
+    "start9": "ts-node src/playground/object-property-exists.ts",
+    "start10": "ts-node src/exception-handling/return-null.ts"
   },
   "author": "john",
   "dependencies": {},
   "devDependencies": {
-    "ts-node": "^8.6.2",
-    "typescript": "^3.8.2",
+    "ts-node": "^9.1.1",
+    "typescript": "^4.2.3",
     "tslint": "^6.1.1"
   }
 }
