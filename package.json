@@ -12,7 +12,8 @@
     "start7": "ts-node src/playground/list-playground.ts",
     "start8": "ts-node src/playground/destructuring.ts",
     "start9": "ts-node src/playground/object-property-exists.ts",
-    "start10": "ts-node src/exception-handling/return-null.ts"
+    "start10": "ts-node src/exception-handling/return-null.ts",
+    "start11": "ts-node src/exception-handling/return-error.ts"
   },
   "author": "john",
   "dependencies": {},
