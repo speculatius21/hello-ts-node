@@ -20,6 +20,7 @@ function isValid(date: Date) {
 
 let date = parse(ask());
 if (date) {
+    // tslint:disable-next-line:no-console
     console.info('Date is', date.toISOString());
 } else {
     console.error('Error parsing date for some reason');
