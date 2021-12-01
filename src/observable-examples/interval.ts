@@ -1,6 +1,19 @@
 import {interval} from 'rxjs';
+import {takeWhile, filter} from 'rxjs/operators';
 
-interval(2000) // <----------- emits a number after every 2 seconds
+const source$ = interval(500); // <----------- emits a number after every 500ms
+source$
+    .pipe(
+        filter(e => 3 < e && e < 8)
+    ).subscribe(
+    // tslint:disable-next-line:no-console
+    nextValue => console.log('subscriber 1:', nextValue)
+);
+source$
+    .pipe(
+        takeWhile(e => e < 5)
+    )
     .subscribe(
-        nextValue => console.log(nextValue)
+        // tslint:disable-next-line:no-console
+        nextValue => console.log('subscriber 2:', nextValue)
     );
