@@ -23,6 +23,7 @@ const foo = new Foo();
 
 // tslint:disable-next-line:no-console
 console.log(foo.booleanProperty);
+// tslint:disable-next-line:no-console
 console.log(foo.stringProperty);
 
 foo.booleanProperty = true;
@@ -30,4 +31,5 @@ foo.stringProperty = "new string value";
 
 // tslint:disable-next-line:no-console
 console.log(foo.booleanProperty);
+// tslint:disable-next-line:no-console
 console.log(foo.stringProperty);

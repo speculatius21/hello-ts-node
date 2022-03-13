@@ -10,7 +10,7 @@ var Foo = /** @class */ (function () {
         set: function (value) {
             this._stringProperty = value;
         },
-        enumerable: false,
+        enumerable: true,
         configurable: true
     });
     Object.defineProperty(Foo.prototype, "booleanProperty", {
@@ -20,7 +20,7 @@ var Foo = /** @class */ (function () {
         set: function (newBar) {
             this._booleanProperty = newBar;
         },
-        enumerable: false,
+        enumerable: true,
         configurable: true
     });
     return Foo;
@@ -28,10 +28,12 @@ var Foo = /** @class */ (function () {
 var foo = new Foo();
 // tslint:disable-next-line:no-console
 console.log(foo.booleanProperty);
+// tslint:disable-next-line:no-console
 console.log(foo.stringProperty);
 foo.booleanProperty = true;
 foo.stringProperty = "new string value";
 // tslint:disable-next-line:no-console
 console.log(foo.booleanProperty);
+// tslint:disable-next-line:no-console
 console.log(foo.stringProperty);
 //# sourceMappingURL=getter-and-setter-in-typescript.js.map

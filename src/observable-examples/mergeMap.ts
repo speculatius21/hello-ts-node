@@ -1,5 +1,5 @@
 import {of} from 'rxjs';
-import {map, mergeMap} from 'rxjs/operators';
+import {mergeMap} from 'rxjs/operators';
 
 const source$ = of('Hello', 'Hi', 'Bonjour'); // <---------- emits these values: 'Hello', 'Peter', 'Paul'
 

@@ -25,4 +25,6 @@ asyncFunction()
             // throw new Error('Error22222');
         }
     )
-    .catch((e) => console.error('ERROR:', e.message));
+    .catch((e) => console.error('ERROR:', e.message))
+    // .finally( )
+;

@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "main": "src/playground/EnumerationPlayground.ts",
   "scripts": {
+    "tsc": "tsc --build tsconfig.json",
     "start": "ts-node src/playground/EnumerationPlayground.ts",
     "start2": "ts-node src/playground/function-types.ts",
     "start3": "ts-node src/playground/and-or-operators.ts",
